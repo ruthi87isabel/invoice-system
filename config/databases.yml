@@ -3,13 +3,13 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn: 'mysql:host=localhost;dbname=siwapp'
-      username: 'ruthi'
-      password: 'ruthi'
+      username: 'siwapp'
+      password: 'wappis'
 
 test:
   doctrine:
     class: sfDoctrineDatabase
     param:
       dsn: 'mysql:host=localhost;dbname=siwapp_test'
-      username: 'ruthi'
-      password: 'ruthi'
+      username: 'siwapp'
+      password: 'wappis'

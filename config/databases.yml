@@ -1,0 +1,15 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=siwapp'
+      username: 'ruthi'
+      password: 'ruthi'
+
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=localhost;dbname=siwapp_test'
+      username: 'ruthi'
+      password: 'ruthi'

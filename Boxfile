@@ -1,0 +1,20 @@
+web1: #component type & number
+  name: invoice-system
+  shared_writable_dirs:
+    - cache
+  document_root: web
+  php_version: 5.3.5
+  php_extensions:
+    - mysql
+    - gd
+    - eaccelerator
+  php_display_errors: "1"
+  php_default_locale: "en_US"
+     
+db1: #component type & number
+  name: UritekInvoices
+  type: mysql
+ 
+cache1:
+  name: sessions
+  type: memcached
